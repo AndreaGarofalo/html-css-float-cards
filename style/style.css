@@ -6,10 +6,34 @@
     box-sizing: border-box;
 }
 
+/* general */
+ 
 :root {
 
 }
 
 body {
     font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #e53170;
+    font-size: 3em;
+    margin: 1em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.2em;
 }
